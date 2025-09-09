@@ -3,6 +3,7 @@ resource "azurerm_resource_group" "name" {
     location = "East US"
     tags = {
         costcenter  = "CC1234"
-    }
-  
+        environment = "Production"
+        owner       = "mightyraju"
+    }  
 }
